@@ -5,12 +5,28 @@
 // Remember to include a unit in the value—for example, pixels (10px). The key names of
 // the arrow keys are "ArrowUp" and "ArrowDown". Make sure the keys change only the
 // balloon, without scrolling the page.
+
+
+    // this is be using the key events on page 251 
+    // the word "keyup" is for up button and "keydown" down button 
+    // the id used is "balloon"
+
+
+
+
+
 // When that works, add a feature where, if you blow up the balloon past a certain size,
 // it explodes. In this case, exploding means that it is replaced with a 💥 emoji, and
 // the event handler is removed (so that you can’t inflate or deflate the explosion).
 // Hint: keeping track of the size in percentage might be easier.
 // Hint: Make sure you quote the emoji characters. They are strings, after all.
 // Hint: document.getElementById("balloon") will get the balloon element on the page.
+
+
+
+
+
+
 
 // 2. The index.html page has a tabbed layout. Make the default state of the layout show
 // the first tab, and make it so that when you click the links at the top the correct
