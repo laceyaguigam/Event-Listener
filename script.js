@@ -16,7 +16,7 @@
     // the event object would "balloon"
 
 
-    let balloon = document.querySelector("balloon");
+    let balloon = document.getElementById("balloon");
 
 
 
