@@ -8,8 +8,27 @@
 
 
     // this is be using the key events on page 251 
-    // the word "keyup" is for up button and "keydown" down button 
+    // the word "ArrowUp" is for up button and "ArrowDown" down button 
     // the id used is "balloon"
+    // up key --> grow 10% 
+    //down key --> shrink 10%
+    // use css to change the text (balloon) size
+    // the event object would "balloon"
+
+
+    let balloon = document.querySelector("balloon");
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
