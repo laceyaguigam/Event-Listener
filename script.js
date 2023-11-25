@@ -20,15 +20,12 @@
 
 
 
+    function balloonGrowth(event) {
+        if ()      //size 
+    } else () {    // arrow up
+} else if () {     // arrow down
 
-
-
-
-
-
-
-
-
+}
 
 
 
