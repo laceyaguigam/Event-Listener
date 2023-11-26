@@ -20,6 +20,10 @@
 
     let size = ;                //need a variable for the size of the balloon 
 
+    function balloonSize(newSize) {  //need a function to create the fluctuation of sizes
+        size = newSize;
+        ballon.style.fontSize = size + "px"; //changes the font? and has to add the px for the unit?
+    }
 
     function balloonGrowth(event) {
         if ()      //size 
@@ -62,3 +66,6 @@
 //prevent default action of links
 //event listener to make tabs work
 //add listener to each tab 
+
+
+docement.getElementById("")
