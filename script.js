@@ -18,12 +18,15 @@
 
     let balloon = document.getElementById("balloon");
 
+    let size = ;                //need a variable for the size of the balloon 
 
 
     function balloonGrowth(event) {
         if ()      //size 
-    } else () {    // arrow up
-} else if () {     // arrow down
+    } else (event.key === "ArrowUp") { // arrow up
+           balloon.fontSize
+} else if (event.key === "ArrowDown") {   // arrow down
+      
 
 }
 
@@ -51,3 +54,6 @@
 // function as expected. There are many ways to accomplish this task, but you will need
 // to at minimum add listeners to each link and toggle the display of the tab contents.
 // Hint: display: none; hides an element, and display: block; will bring it
+
+
+
