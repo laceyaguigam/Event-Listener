@@ -29,13 +29,12 @@
         if ()      //size 
     } else (event.key === "ArrowUp") { // arrow up
            balloon.fontSize
+
 } else if (event.key === "ArrowDown") {   // arrow down
       
 
 }
-
-
-
+               
 
 
 // When that works, add a feature where, if you blow up the balloon past a certain size,
@@ -68,4 +67,11 @@
 //add listener to each tab 
 
 
-docement.getElementById("")
+document.getElementById("")
+
+// Id --> tab1, etc or tab1Link ? or the div?
+
+(insert ID).addEventListener("mousedown", event) //this is for when tab is clicked
+
+
+function 
