@@ -57,3 +57,8 @@
 
 
 
+// default layout should be tab 1
+// when click on each tab, that tab opens and the others are hidden
+//prevent default action of links
+//event listener to make tabs work
+//add listener to each tab 
