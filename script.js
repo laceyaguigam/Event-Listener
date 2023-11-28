@@ -75,3 +75,23 @@ document.getElementById("")
 
 
 function 
+
+
+
+
+switch () {
+    case () :
+        console.log();
+        break;
+    case () :
+        console.log();
+        break;
+    case () :
+        console.log();
+        break;
+    case () :
+        console.log();
+        break;
+    default:
+        console.log();
+}
