@@ -57,7 +57,7 @@
 // function as expected. There are many ways to accomplish this task, but you will need
 // to at minimum add listeners to each link and toggle the display of the tab contents.
 // Hint: display: none; hides an element, and display: block; will bring it
-
+ 
 
 
 // default layout should be tab 1
@@ -67,31 +67,40 @@
 //add listener to each tab 
 
 
-document.getElementById("")
+// document.getElementById("")
 
 // Id --> tab1, etc or tab1Link ? or the div?
 
-(insert ID).addEventListener("mousedown", event) //this is for when tab is clicked
+// (insert ID).addEventListener("mousedown", event) //this is for when tab is clicked
 
 
-function 
+// switch () {
+//     case () :
+//         console.log();
+//         break;
+//     case () :
+//         console.log();
+//         break;
+//     case () :
+//         console.log();
+//         break;
+//     case () :
+//         console.log();
+//         break;
+//     default:
+//         console.log();
+// }
+
+
+let tabbedLayout = document.querySelector("tabbed-layout");
+let tabList = tabbedLayout.querySelector("ul");
+let tabButtons = tabList.querySelectorAll("a");
+let tabPanels = tabLyout.querySelectorAll(tabbed-contents > div);
 
 
 
 
-switch () {
-    case () :
-        console.log();
-        break;
-    case () :
-        console.log();
-        break;
-    case () :
-        console.log();
-        break;
-    case () :
-        console.log();
-        break;
-    default:
-        console.log();
-}
+
+
+
+
