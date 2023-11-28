@@ -92,10 +92,10 @@
 // }
 
 
-let tabbedLayout = document.querySelector("tabbed-layout");
-let tabList = tabbedLayout.querySelector("ul");
-let tabButtons = tabList.querySelectorAll("a");
-let tabPanels = tabLyout.querySelectorAll(tabbed-contents > div);
+let tabbedLayout = document.querySelector("tabbed-layout");  // this is the div that starts the tab layout 
+let tabList = tabbedLayout.querySelector("ul"); // the list that hold the links for each tab
+let tabButtons = tabList.querySelectorAll("a"); //the actual links for the tabs 
+let tabPanels = tabLyout.querySelectorAll(tabbed-contents > div); // the > div means that it will add every div inside the tabbed-contents div
 
 
 
