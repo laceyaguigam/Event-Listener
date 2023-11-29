@@ -16,24 +16,24 @@
     // the event object would "balloon"
 
 
-    let balloon = document.getElementById("balloon");
+//     let balloon = document.getElementById("balloon");
 
-    let size = ;                //need a variable for the size of the balloon 
+//     let size =                 //need a variable for the size of the balloon 
 
-    function balloonSize(newSize) {  //need a function to create the fluctuation of sizes
-        size = newSize;
-        ballon.style.fontSize = size + "px"; //changes the font? and has to add the px for the unit?
-    }
+//     function balloonSize(newSize) {  //need a function to create the fluctuation of sizes
+//         size = newSize;
+//         ballon.style.fontSize = size + "px"; //changes the font? and has to add the px for the unit?
+//     }
 
-    function balloonGrowth(event) {
-        if ()      //size 
-    } else (event.key === "ArrowUp") { // arrow up
-           balloon.fontSize
+//     function balloonGrowth(event) {
+//         if ()      //size 
+//     } else (event.key === "ArrowUp") { // arrow up
+//            balloon.fontSize
 
-} else if (event.key === "ArrowDown") {   // arrow down
+// } else if (event.key === "ArrowDown") {   // arrow down
       
 
-}
+// }
                
 
 
@@ -91,11 +91,12 @@
 //         console.log();
 // }
 
+"use strict" 
 
-let tabbedLayout = document.querySelector(".tabbed-layout");  // this is the div that starts the tab layout 
+let tabbedLayout = document.getElementById("tabbed-layout");  // this is the div that starts the tab layout 
 let tabList = tabbedLayout.querySelector("ul"); // the list that hold the links for each tab
 let tabButtons = tabList.querySelectorAll("a"); //the actual links for the tabs 
-let tabPanels = tabLayout.querySelectorAll(tabbed-contents > div); // the > div means that it will add every div inside the tabbed-contents div
+let tabPanels = tabbedLayout.querySelectorAll("tabbed-contents > div"); // the > div means that it will add every div inside the tabbed-contents div
 
 
 //creating the tab buttons, switching to arrow functions to learn how to use them
