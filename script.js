@@ -105,11 +105,13 @@ tabButtons.forEach((tab, index) => {
     if (index == 0) {
 
     } else {
-        tabPanels[index].setAttribute("hidden", "");
+        tabPanels[index].setAttribute("hidden", " ");
     } 
 });
 
-
+tabbedLayout.addEventListener("click", (e) => {       //e is the event, assuming because it state event is depricated 
+    e.preventDefault();
+});
 
 
 
