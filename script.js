@@ -92,13 +92,21 @@
 // }
 
 
-let tabbedLayout = document.querySelector("tabbed-layout");  // this is the div that starts the tab layout 
+let tabbedLayout = document.querySelector(".tabbed-layout");  // this is the div that starts the tab layout 
 let tabList = tabbedLayout.querySelector("ul"); // the list that hold the links for each tab
 let tabButtons = tabList.querySelectorAll("a"); //the actual links for the tabs 
-let tabPanels = tabLyout.querySelectorAll(tabbed-contents > div); // the > div means that it will add every div inside the tabbed-contents div
+let tabPanels = tabLayout.querySelectorAll(tabbed-contents > div); // the > div means that it will add every div inside the tabbed-contents div
 
 
+//creating the tab buttons, switching to arrow functions to learn how to use them
+tabButtons.forEach((tab, index) => {
 
+    if (index == 0) {
+
+    } else {
+        tabPanels[index].setAttribute("hidden", "");
+    } 
+});
 
 
 
