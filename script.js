@@ -16,9 +16,9 @@
     // the event object would "balloon"
 
 
-//     let balloon = document.getElementById("balloon");
+    let balloon = document.getElementById("balloon"); // or querySelector("#balloon")
 
-//     let size =                 //need a variable for the size of the balloon 
+    let size;               //need a variable for the size of the balloon 
 
 //     function balloonSize(newSize) {  //need a function to create the fluctuation of sizes
 //         size = newSize;
@@ -34,7 +34,38 @@
       
 
 // }
-               
+            
+//querySelector means a specific element and only gets the first match, but adding all will get all of them 
+
+
+
+//notes from class 
+//using variables created above 
+
+function setSize(newSize) {
+    size = newSize;
+    balloon.style.fontSize = size + "px";
+}
+setSize(30); //should change the size 
+
+function handleArrows(event) {                  //e is used as an exception
+    if (event.key == "ArrowUp") {
+        setSize(size *1,1);
+        event.preventDefault();
+    } else if (event.key == "ArrowDown") {
+        setSize(size * 0.9);
+        event.preventDefault(); //prevents scroll
+    } else 
+    console.log("key pressed not used");
+}      
+
+document.body.addEventListener("keydown", handleArrows);
+
+
+
+
+
+
 
 
 // When that works, add a feature where, if you blow up the balloon past a certain size,
@@ -93,25 +124,25 @@
 
 "use strict" 
 
-let tabbedLayout = document.getElementById("tabbed-layout");  // this is the div that starts the tab layout 
-let tabList = tabbedLayout.querySelector("ul"); // the list that hold the links for each tab
-let tabButtons = tabList.querySelectorAll("a"); //the actual links for the tabs 
-let tabPanels = tabbedLayout.querySelectorAll("tabbed-contents > div"); // the > div means that it will add every div inside the tabbed-contents div
+// let tabbedLayout = document.getElementById("#tabbed-layout");  // this is the div that starts the tab layout 
+// let tabList = tabbedLayout.querySelector("ul"); // the list that hold the links for each tab
+// let tabButtons = tabList.querySelectorAll("a"); //the actual links for the tabs 
+// let tabPanels = tabbedLayout.querySelectorAll("#tabbed-contents > div"); // the > div means that it will add every div inside the tabbed-contents div
 
 
-//creating the tab buttons, switching to arrow functions to learn how to use them
-tabButtons.forEach((tab, index) => {
+// //creating the tab buttons, switching to arrow functions to learn how to use them
+// tabButtons.forEach((tab, index) => {
 
-    if (index == 0) {
+//     if (index == 0) {
 
-    } else {
-        tabPanels[index].setAttribute("hidden", " ");
-    } 
-});
+//     } else {
+//         tabPanels[index].setAttribute("hidden", " ");
+//     } 
+// });
 
-tabbedLayout.addEventListener("click", (e) => {       //e is the event, assuming because it state event is depricated 
-    e.preventDefault();
-});
+// tabbedLayout.addEventListener("click", (e) => {       //e is the event, assuming because it state event is depricated 
+//     e.preventDefault();
+// });
 
 
 
